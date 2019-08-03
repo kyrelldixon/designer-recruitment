@@ -1,16 +1,13 @@
 import React from "react"
 import Title from "./title"
 import Subtitle from "./subtitle"
-import SocialIcon from "./social-icon"
+import SocialIcons from "./social-icons"
 
 const FloatingContainer = () => (
-  <div>
+  <div className="floating-container">
     <Title />
     <Subtitle />
-    <SocialIcon name="Twitter" url="https://www.twitter.com/kyrelldixon" />
-    <SocialIcon name="Instagram" url="https://www.instagram.com/kyrell.dixon" />
-    <SocialIcon name="GitHub" url="https://www.github.com/kyrelldixon/designer-recruitment" />
-    <SocialIcon name="Mail" url="mailto:kyrell@kyrelldixon.com" />
+    <SocialIcons />
   </div>
 )
 
