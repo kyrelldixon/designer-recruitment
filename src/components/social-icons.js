@@ -1,12 +1,28 @@
 import React from "react"
-import SocialIcon from "./social-icon"
+import ExternalLink from "./external-link"
 
 const SocialIcons = () => (
   <ul className="social-icons">
-    <li><SocialIcon name="Twitter" url="https://www.twitter.com/kyrelldixon" /></li>
-    <li><SocialIcon name="Instagram" url="https://www.instagram.com/kyrell.dixon" /></li>
-    <li><SocialIcon name="GitHub" url="https://www.github.com/kyrelldixon/designer-recruitment" /></li>
-    <li><SocialIcon name="Mail" url="mailto:kyrell@kyrelldixon.com" /></li>
+    <li className="social-icon">
+      <ExternalLink url="https://www.twitter.com/kyrelldixon">
+        Twitter
+      </ExternalLink>
+    </li>
+    <li className="social-icon">
+      <ExternalLink url="https://www.instagram.com/kyrell.dixon">
+        Instagram
+      </ExternalLink>
+    </li>
+    <li className="social-icon">
+      <ExternalLink url="https://www.github.com/kyrelldixon/designer-recruitment">
+        GitHub
+      </ExternalLink>
+    </li>
+    <li className="social-icon">
+      <ExternalLink url="mailto:kyrell@kyrelldixon.com">
+        Mail
+      </ExternalLink>
+    </li>
   </ul>
 )
 
