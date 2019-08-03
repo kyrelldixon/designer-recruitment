@@ -1,7 +1,7 @@
 import React from "react"
 
 const Subtitle = () => (
-  <div>Let's team up.</div>
+  <h2>Let's team up.</h2>
 )
 
 export default Subtitle
