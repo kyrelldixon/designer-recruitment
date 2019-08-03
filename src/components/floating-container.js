@@ -1,12 +1,10 @@
 import React from "react"
-import Title from "./title"
-import Subtitle from "./subtitle"
 import SocialIcons from "./social-icons"
+import Heading from "./heading"
 
 const FloatingContainer = () => (
   <div className="floating-container">
-    <Title />
-    <Subtitle />
+    <Heading />
     <SocialIcons />
   </div>
 )
