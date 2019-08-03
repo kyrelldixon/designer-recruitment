@@ -10,7 +10,9 @@ If you're just here for the code, here's how you get set up:
 
 1. **Clone the repo.**
 
-`git clone https://github.com/kyrelldixon/designer-recruitment.git`
+```bash
+git clone https://github.com/kyrelldixon/designer-recruitment.git
+```
 
 2. **Start developing.**
 
