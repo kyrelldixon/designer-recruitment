@@ -7,10 +7,10 @@ const FloatingContainer = () => (
   <div>
     <Title />
     <Subtitle />
-    <SocialIcon />
-    <SocialIcon />
-    <SocialIcon />
-    <SocialIcon />
+    <SocialIcon name="Twitter" url="https://www.twitter.com/kyrelldixon" />
+    <SocialIcon name="Instagram" url="https://www.instagram.com/kyrell.dixon" />
+    <SocialIcon name="GitHub" url="https://www.github.com/kyrelldixon/designer-recruitment" />
+    <SocialIcon name="Mail" url="mailto:kyrell@kyrelldixon.com" />
   </div>
 )
 
